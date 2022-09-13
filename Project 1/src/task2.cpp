@@ -11,7 +11,7 @@ void write_to_file(vector<float> x_val, vector<float> u_val, string file_name);
 
 int main() {
   string file_name = "task2.txt";
-  int n = 10;
+  int n = 100;
 
   vector<float> x_val = get_x_values(n);
   vector<float> exact = analytical(x_val);
