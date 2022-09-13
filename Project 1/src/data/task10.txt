@@ -1,0 +1,6 @@
+ base n = 10 |   N repetitions = 10   |  Time given in seconds
+     n^x     |  average time general  |  average time special
+      1             8.85000e-06              1.49000e-06
+      2             7.45710e-04              4.91000e-06
+      3             1.12234e-01              6.84600e-05
+      4             1.20427e+01              9.10100e-04
