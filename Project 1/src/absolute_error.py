@@ -30,8 +30,8 @@ with open("data/absolute_error.txt", 'r') as data:
         s += 1
 
     ax.legend(loc = "lower center", ncol = 3)
-    ax.set_title('Absolute error')
-    ax.set_ylabel("$log_{10}$")
-    ax.set_xlabel('x')
+    ax.set_title('Absolute error', fontsize=15)
+    ax.set_ylabel("$log_{10}$", fontsize=15)
+    ax.set_xlabel('x', fontsize=15)
     
     plt.savefig('data/absolute_error.pdf')
