@@ -1,5 +1,6 @@
 compiled and linked by 
 g++ filename.cpp function.cpp -o ../exe/filename.exe -larmadillo
+
 and executed by 
 ../exe/task5.exe
 
