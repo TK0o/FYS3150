@@ -4,7 +4,7 @@ add -fopenmp to use parallelization
 
 /src consist of speed_test_v2.cpp mainly used to compare methods and time differences,
 the second is ising_v2.cpp, which is the main code. both look fairly similar, but with a few differences.
-make_plots.py have all the function calls at the bottom.
+make_plots.py have all the function calls at the bottom of the file.
 
 and executed by ../exe/filename.exe
 
