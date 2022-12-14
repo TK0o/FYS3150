@@ -1,0 +1,81 @@
+/*
+which can be in any order.
+for the code to register an individual run the word
+simulate has to be used, followed by the parameters and their values.
+the values has to be given after an equal "=" sign.
+
+if no value has been givien then the code falls back on predetermined 
+or default values, which is the values given in problem 7.
+
+note, the file_name = "specific name" must include the filetype or extention, 
+meaning it must end in a valid file format such as .txt as an example. it is
+worth mentioning that it will create an output file in the /data folder
+even if there isn't any given file name in this file. in case of no given file
+name it will fall back on predetermined filenames for the output files.
+
+several instances of "simulate" can be used at the same time, and the code 
+interprets it as seperate simulations to run in succession. 
+
+it is possible to add comments to the output files, which follows the same
+syntax as in c++, meaning everything after a "//" will be interpreted as add
+comment, same as everything inside "/**/" even over multiple lines.
+
+the amount of slits can be set to more than 3, as it can be set to any number
+as long as it fits inside the boundary. note that slit_size_y and slit_dist_y
+would have to be adjusted accordingly to the amount of slits that is given 
+in this input file.
+
+note that the use of multiple simulations from this file currently gives
+a "Segmentation fault (core dumped)" error. 
+
+
+input file will take the current values
+-----------------------------------
+h
+delta_t
+T_stop
+x_c
+sigma_x
+p_x
+y_c
+sigma_y
+p_y
+v_0
+wall_potential
+wall_thickness_x
+wall_pos_centre_x
+slit_dist_y
+slit_size_y
+slit_centred_y
+n_slits 
+file_name
+-----------------------------------
+
+
+
+
+simulate
+
+h = 0.20
+n_slits = 2
+
+
+/*
+h = 1
+delta_t = 2
+T_stop = 3
+x_c = 4
+sigma_x = 5
+p_x = 6
+y_c = 7
+sigma_y = 8
+p_y = 9
+v_0 = 10
+wall_potential = 11
+wall_thickness_x = 12
+wall_pos_centre_x = 13
+slit_dist_y = 14
+slit_size_y = 15
+slit_centred_y = 16
+file_name = something_1
+*/
